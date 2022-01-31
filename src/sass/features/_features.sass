@@ -1,0 +1,70 @@
+
+@import "../mixins/_mixins.sass"
+
+.container-fuild:nth-child(7)
+	padding-top: 5em
+	padding-bottom: 5em
+	background: $features_bg1
+	color: $header_txt_menu1
+	h4
+		font-family: Roboto, sans-serif
+		font-weight: 100
+		font-size: 1.1rem
+		letter-spacing: 1px
+		text-transform: uppercase
+
+	.display-1
+		font-family: Roboto, Arial, Helvetica, sans-serif
+		font-weight: 700
+		font-size: 2em
+		letter-spacing: .1px
+		margin-bottom: 2em
+	.card
+		border-radius: 0
+	.row:nth-child(2)
+		margin-bottom: 1em
+		.col-12.col-sm-4
+			text-align: center
+		.col-12.col-sm-4:nth-child(2)
+			.card-deck
+				margin-right: -22.5px
+				margin-left: -22.5px
+		.col-12.col-sm-4:last-child
+			.card-deck
+				margin-right: -30px
+
+		.col-12.col-sm-4:first-child
+			.card-deck
+				margin-left: -30px
+
+		.col-12.col-sm-4:nth-child(odd)
+			.card
+				color: red
+				border: 1px solid red
+		.col-12.col-sm-4:nth-child(even)
+			.card
+				color: $bg-color3
+				border: 1px solid $bg-color3
+
+
+	.row:nth-child(3)
+		.col-12.col-sm-4
+			text-align: center
+		.col-12.col-sm-4:nth-child(2)
+			.card-deck
+				margin-right: -22.5px
+				margin-left: -22.5px
+		.col-12.col-sm-4:last-child
+			.card-deck
+				margin-right: -30px
+		.col-12.col-sm-4:first-child
+			.card-deck
+				margin-left: -30px
+		.col-12.col-sm-4:nth-child(even)
+			.card
+				color: red
+				border: 1px solid red
+		.col-12.col-sm-4:nth-child(odd)
+			.card
+				color: $bg-color3
+				border: 1px solid $bg-color3

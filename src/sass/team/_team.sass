@@ -1,0 +1,32 @@
+@import "../mixins/_mixins"
+
+.container-fuild:nth-child(8)
+  //height: 100vh
+  background: linear-gradient(to bottom left, $home_linear_gradient3, $bg-color2)
+  padding-top: 2em
+  padding-bottom: 2em
+  .col-12.col-sm-4
+    .pers-1
+      @include pers-team("../img/team1.jpg")
+    .pers-2
+      @include pers-team("../img/team2.jpg")
+    .pers-3
+      @include pers-team("../img/team3.jpg")
+  h2
+    font-family: Roboto, Arial, sans-serif
+    font-size: 1.8em
+    font-weight: bold
+    margin-top: .8em
+    margin-bottom: .8em
+
+
+  p.lead
+    font-family: 'Open Sans', sans-serif
+    font-style: normal
+    font-weight: 400
+    font-size: 1.05em
+    span
+      font-family: Roboto, sans-serif
+      font-style: normal
+      font-weight: bold
+      font-size: .88em
