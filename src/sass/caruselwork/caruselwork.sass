@@ -1,21 +1,59 @@
 .container-fuild:nth-child(13)
+
   .wrapper
-    display: flex
-    flex-direction: column
-    align-items: center
     width: 100%
+
+  .col-12
+    padding: 0
+
   .carusel
-    position: relative
-    width: 900px
-    height: 300px
+    width: 100%
+    height: 400px
     margin: 0 auto
     overflow: hidden
+
   .carusel-line
     display: flex
-    height: 300px
     position: relative
     left: 0
+    transition: .8s
+
   .carusel-line-item
     display: inline-block
-    height: 300px
-    flex: 0 0 300px
+    height: 400px
+    width: 100%
+
+  a
+    color: white
+  .arrow
+    position: absolute
+    top: 50%
+    width: 4vmin
+    height: 4vmin
+    background: transparent
+    border-top: 1vmin solid white
+    border-right: 1vmin solid white
+    box-shadow: 0 0 0 lightgray
+    transition: all 200ms ease
+    z-index: 100
+
+    &.left
+      left: 25px
+      transform: translate3d(0,-50%,0) rotate(-135deg)
+
+    &.right
+      right: 25px
+      transform: translate3d(0,-50%,0) rotate(45deg)
+
+    &:hover
+      border-color: orange
+      box-shadow: 0.5vmin -0.5vmin 0 white
+
+    &::before
+      content: ''
+      position: absolute
+      top: 40%
+      left: 50%
+      transform: translate(-40%,-60%) rotate(45deg)
+      width: 300%
+      height: 300%

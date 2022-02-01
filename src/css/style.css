@@ -18955,22 +18955,14 @@ body .dropdown-menu {
   }
 }
 .container-fuild:nth-child(13) .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   width: 100%;
 }
+.container-fuild:nth-child(13) .col-12 {
+  padding: 0;
+}
 .container-fuild:nth-child(13) .carusel {
-  position: relative;
-  width: 900px;
-  height: 300px;
+  width: 100%;
+  height: 400px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -18978,15 +18970,59 @@ body .dropdown-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 300px;
   position: relative;
   left: 0;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
 }
 .container-fuild:nth-child(13) .carusel-line-item {
   display: inline-block;
-  height: 300px;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 300px;
-  flex: 0 0 300px;
+  height: 400px;
+  width: 100%;
+}
+.container-fuild:nth-child(13) a {
+  color: white;
+}
+.container-fuild:nth-child(13) .arrow {
+  position: absolute;
+  top: 50%;
+  width: 4vmin;
+  height: 4vmin;
+  background: transparent;
+  border-top: 1vmin solid white;
+  border-right: 1vmin solid white;
+  -webkit-box-shadow: 0 0 0 lightgray;
+  box-shadow: 0 0 0 lightgray;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  z-index: 100;
+}
+.container-fuild:nth-child(13) .arrow.left {
+  left: 25px;
+  -webkit-transform: translate3d(0, -50%, 0) rotate(-135deg);
+  transform: translate3d(0, -50%, 0) rotate(-135deg);
+}
+.container-fuild:nth-child(13) .arrow.right {
+  right: 25px;
+  -webkit-transform: translate3d(0, -50%, 0) rotate(45deg);
+  transform: translate3d(0, -50%, 0) rotate(45deg);
+}
+.container-fuild:nth-child(13) .arrow:hover {
+  border-color: orange;
+  -webkit-box-shadow: 0.5vmin -0.5vmin 0 white;
+  box-shadow: 0.5vmin -0.5vmin 0 white;
+}
+.container-fuild:nth-child(13) .arrow::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-40%, -60%) rotate(45deg);
+  -ms-transform: translate(-40%, -60%) rotate(45deg);
+  transform: translate(-40%, -60%) rotate(45deg);
+  width: 300%;
+  height: 300%;
 }
 /*# sourceMappingURL=style.css.map */
