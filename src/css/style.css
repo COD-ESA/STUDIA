@@ -18954,7 +18954,39 @@ body .dropdown-menu {
     margin-right: -15px;
   }
 }
-.container-fuild:nth-child(13) {
-  color: black;
+.container-fuild:nth-child(13) .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+.container-fuild:nth-child(13) .carusel {
+  position: relative;
+  width: 900px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.container-fuild:nth-child(13) .carusel-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  position: relative;
+  left: 0;
+}
+.container-fuild:nth-child(13) .carusel-line-item {
+  display: inline-block;
+  height: 300px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 300px;
+  flex: 0 0 300px;
 }
 /*# sourceMappingURL=style.css.map */
