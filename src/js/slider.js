@@ -1,7 +1,5 @@
 
 (function() {
-  const next = document.querySelector(".next")
-  const prev = document.querySelector(".prev")
 
   const aPrev = document.querySelector(".left")
   const aNext = document.querySelector(".right")
@@ -28,7 +26,6 @@
   })
   aPrev.addEventListener( 'click', (event) => {
 
-    console.log('hello')
     event.preventDefault();
     if( stop !== 1 ){
 
