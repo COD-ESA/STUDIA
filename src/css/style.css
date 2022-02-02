@@ -17910,6 +17910,9 @@ body .dropdown-item span {
 .container-fuild:nth-child(5) .container h5 {
   font-family: Inter;
 }
+.container-fuild:nth-child(5) .container .row {
+  margin: auto 0 !important;
+}
 .container-fuild:nth-child(5) .container .card {
   background: #ec09b0;
   height: 85%;
@@ -18424,21 +18427,24 @@ body .dropdown-item span {
   margin-left: 0.8em;
 }
 .container-fuild:nth-child(13) .contact_wrap {
-  padding-left: 5em;
+  padding-left: 3%;
 }
 .container-fuild:nth-child(13) .contact_wrap_form {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-.container-fuild:nth-child(13) .contact_wrap_form h2 {
-  color: #b708f7;
+.container-fuild:nth-child(13) .contact_wrap_form h3 {
+  color: white;
   font-style: normal;
   font-weight: 500;
   text-transform: uppercase;
   font-family: Roboto, Arial, sans-serif;
 }
+.container-fuild:nth-child(13) .contact_wrap_form form {
+  min-width: 40vw;
+}
 .container-fuild:nth-child(13) .contact_wrap_form input:not(:last-child), .container-fuild:nth-child(13) .contact_wrap_form textarea {
-  min-width: 500px;
+  width: 100%;
   border-radius: 0;
   margin-bottom: 1.2em;
   font-family: Roboto, Arial, sans-serif;
@@ -18618,6 +18624,7 @@ body .dropdown-item span {
   .container-fuild:nth-child(3) .container .row {
     padding-left: 1em;
     padding-right: 1em;
+    margin: auto 0;
   }
   .container-fuild:nth-child(3) .container .row h5.display-5 {
     margin-top: 0.5em;
@@ -18653,6 +18660,7 @@ body .dropdown-item span {
   .container-fuild:nth-child(5) .container .row {
     padding-left: 0.9em;
     padding-right: 0.9em;
+    margin: auto 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -18693,6 +18701,12 @@ body .dropdown-item span {
   .container-fuild:nth-child(9) .container .row .address_office, .container-fuild:nth-child(9) .container .row .number_phono, .container-fuild:nth-child(9) .container .row .email {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+@media only screen and (max-height: 576px) {
+  .container-fuild:nth-child(5) .container .row:nth-child(3) .col-12.col-sm-4:nth-child(2n+1) .card-deck, .container-fuild:nth-child(5) .container .row:nth-child(2) .col-12.col-sm-4:nth-child(2n+1) .card-deck {
+    color: red !important;
+    margin: auto 0;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
