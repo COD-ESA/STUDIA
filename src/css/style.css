@@ -17836,6 +17836,9 @@ body .dropdown-menu {
   left: -50px;
   top: 53px;
 }
+body .dropdown-item span {
+  text-shadow: 1px 1px 2px #08f7bf;
+}
 
 .container-fuild:nth-child(4) {
   padding-top: 1em;
@@ -18388,16 +18391,77 @@ body .dropdown-menu {
 }
 
 .container-fuild:nth-child(13) {
+  background: -webkit-gradient(linear, left top, right top, from(#081cf7), to(#08f7bf));
+  background: -o-linear-gradient(left, #081cf7, #08f7bf);
+  background: linear-gradient(to right, #081cf7, #08f7bf);
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.container-fuild:nth-child(13) .location_wrap {
+  text-align: right;
+  padding-top: 0.4em;
+  padding-right: 5em;
+}
+.container-fuild:nth-child(13) .location_wrap_addres, .container-fuild:nth-child(13) .location_wrap_socnet {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.container-fuild:nth-child(13) .location_wrap_addres h4, .container-fuild:nth-child(13) .location_wrap_socnet h4 {
+  color: #0d0808;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: Roboto, Arial, sans-serif;
+}
+.container-fuild:nth-child(13) .location_wrap_addres p, .container-fuild:nth-child(13) .location_wrap_socnet p {
+  color: #0d0808;
+}
+.container-fuild:nth-child(13) .location_wrap_addres img, .container-fuild:nth-child(13) .location_wrap_socnet img {
+  width: 35px;
+  height: 35px;
+}
+.container-fuild:nth-child(13) .location_wrap_addres img:nth-child(-n+1), .container-fuild:nth-child(13) .location_wrap_socnet img:nth-child(-n+1) {
+  margin-left: 0.8em;
+}
+.container-fuild:nth-child(13) .contact_wrap {
+  padding-left: 5em;
+}
+.container-fuild:nth-child(13) .contact_wrap_form {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.container-fuild:nth-child(13) .contact_wrap_form h2 {
+  color: #b708f7;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: Roboto, Arial, sans-serif;
+}
+.container-fuild:nth-child(13) .contact_wrap_form input:not(:last-child), .container-fuild:nth-child(13) .contact_wrap_form textarea {
+  min-width: 500px;
+  border-radius: 0;
+  margin-bottom: 1.2em;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  border: 0;
+}
+.container-fuild:nth-child(13) .contact_wrap_form input:last-child {
+  min-width: 5em;
+  border-radius: 0;
+}
+
+.container-fuild:nth-child(15) {
   background: #3000cc;
 }
-.container-fuild:nth-child(13) .row .address_office, .container-fuild:nth-child(13) .row .number_phono, .container-fuild:nth-child(13) .row .email {
+.container-fuild:nth-child(15) .row .address_office, .container-fuild:nth-child(15) .row .number_phono, .container-fuild:nth-child(15) .row .email {
   min-height: 200px;
   max-height: 200px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
-.container-fuild:nth-child(13) .row .address_office .address_office_svg, .container-fuild:nth-child(13) .row .address_office .number_phono_svg, .container-fuild:nth-child(13) .row .address_office .email_svg, .container-fuild:nth-child(13) .row .number_phono .address_office_svg, .container-fuild:nth-child(13) .row .number_phono .number_phono_svg, .container-fuild:nth-child(13) .row .number_phono .email_svg, .container-fuild:nth-child(13) .row .email .address_office_svg, .container-fuild:nth-child(13) .row .email .number_phono_svg, .container-fuild:nth-child(13) .row .email .email_svg {
+.container-fuild:nth-child(15) .row .address_office .address_office_svg, .container-fuild:nth-child(15) .row .address_office .number_phono_svg, .container-fuild:nth-child(15) .row .address_office .email_svg, .container-fuild:nth-child(15) .row .number_phono .address_office_svg, .container-fuild:nth-child(15) .row .number_phono .number_phono_svg, .container-fuild:nth-child(15) .row .number_phono .email_svg, .container-fuild:nth-child(15) .row .email .address_office_svg, .container-fuild:nth-child(15) .row .email .number_phono_svg, .container-fuild:nth-child(15) .row .email .email_svg {
   width: 95%;
   height: 95%;
   display: -webkit-box;
@@ -18416,7 +18480,7 @@ body .dropdown-menu {
   color: #f3e2e2;
   font-family: Roboto, sans-serif;
 }
-.container-fuild:nth-child(13) .row .address_office .address_office_svg p, .container-fuild:nth-child(13) .row .address_office .number_phono_svg p, .container-fuild:nth-child(13) .row .address_office .email_svg p, .container-fuild:nth-child(13) .row .number_phono .address_office_svg p, .container-fuild:nth-child(13) .row .number_phono .number_phono_svg p, .container-fuild:nth-child(13) .row .number_phono .email_svg p, .container-fuild:nth-child(13) .row .email .address_office_svg p, .container-fuild:nth-child(13) .row .email .number_phono_svg p, .container-fuild:nth-child(13) .row .email .email_svg p {
+.container-fuild:nth-child(15) .row .address_office .address_office_svg p, .container-fuild:nth-child(15) .row .address_office .number_phono_svg p, .container-fuild:nth-child(15) .row .address_office .email_svg p, .container-fuild:nth-child(15) .row .number_phono .address_office_svg p, .container-fuild:nth-child(15) .row .number_phono .number_phono_svg p, .container-fuild:nth-child(15) .row .number_phono .email_svg p, .container-fuild:nth-child(15) .row .email .address_office_svg p, .container-fuild:nth-child(15) .row .email .number_phono_svg p, .container-fuild:nth-child(15) .row .email .email_svg p {
   padding-top: 1em;
 }
 

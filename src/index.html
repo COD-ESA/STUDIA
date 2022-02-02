@@ -23,11 +23,10 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="https://wa.me/message/UPSYBRG4XXYKB1">Whatsapp</a><a class="dropdown-item" href="https://t.me/Goodweb3">Найти нас в telegram!</a>
-                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="https://wa.me/message/UPSYBRG4XXYKB1">Найти нас в<span>&nbsp;WhatsApp!</span></a><a class="dropdown-item" href="https://t.me/Goodweb3">Найти нас в<span>&nbsp;Telegram!</span></a>
+                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#formsend">Оставить заявку через форму.</a>
                   </div>
                 </li>
               </ul>
@@ -221,7 +220,7 @@
     <div class="container-fuild">
       <div class="container">
         <div class="row my-5">
-          <div class="wrapper">
+          <div class="wrapper" id="portfolio">
             <h1>Наши проекты</h1>
             <div class="carusel col-12"><a class="arrow left" href="#"></a><a class="arrow right" href="#"></a>
               <div class="carusel-line">
@@ -331,31 +330,45 @@
     </div>
     <!--	11 -13-->
     <div class="container-fuild">
-      <div class="container">
-        <div class="row mx-0 justify-content-around">
-          <div class="address_office col-12 col-sm-4">
-            <div class="address_office_svg"><span>Headline</span>
-              <p>Sample footer text</p>
+      <section>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-6">
+              <div class="location_wrap">
+                <div class="location_wrap_addres">
+                  <h4>location</h4>
+                  <p class="lead">Домашний офис с видом на океан<br>Волна успеха</p>
+                </div>
+                <div class="location_wrap_socnet">
+                  <h4>follow us</h4>
+                  <p class="lead"><a href="https://www.facebook.com"><img title="facebook" src="img/003-facebook-1.svg" alt="facebook"></a><a href="https://twitter.com/"><img title="twitter" src="img/004-twitter.svg" alt="twitter"></a><a href="https://www.instagram.com/"><img title="instagram" src="img/002-instagram.svg" alt="instagram"></a><a href="https://vk.com"><img title="vk" src="img/free-icon-vk-1051359.png" alt="vk"></a></p>
+                  <p class="pt-4">&copy; Privacy policy</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="number_phono col-12 col-sm-4">
-            <div class="number_phono_svg"><span>Headline</span>
-              <p>Sample footer text</p>
-            </div>
-          </div>
-          <div class="email col-12 col-sm-4">
-            <div class="email_svg"><span>Headline</span>
-              <p>Sample footer text</p>
+            <div class="col-12 col-sm-6">
+              <div class="contact_wrap">
+                <div class="contact_wrap_form">
+                  <h2>Форма ввода заявки</h2>
+                  <form id="formsend">
+                    <input type="text" name="human_name" placeholder="Enter Your Name"><br>
+                    <input type="email" name="human_email" placeholder="Enter a valid email addres"><br>
+                    <textarea id="msg" name="human_msg" cols="30" rows="5"></textarea><br>
+                    <input type="submit" value="Отправить">
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/jquery.slim.min.js"></script>
-    <script src="./js/carusel.js"></script>
-    <script src="./js/slider.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/carusel.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/scrollToForm.js"></script>
   </body>
 </html>
