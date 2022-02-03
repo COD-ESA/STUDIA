@@ -24,12 +24,13 @@
 
 	@media only screen and (min-height: 481px) and (max-height: 600px)
 		//section home
-		.container-fuild:nth-child(2)
+		.container-fuild:nth-child(4)
 			height: 230vh
 			.container
 
 				.home_foto, .home_studio
 					min-height: 115vh
+
 		.container-fuild:nth-child(5)
 			.row:nth-child(2),.row:nth-child(3)
 				padding-top: .5em
@@ -39,12 +40,13 @@
 					margin-right: -15px
 
 	//section skill
-	.container-fuild:nth-child(3)
-		.display-5
-			text-align: center
+	.container-fuild:nth-child(5)
+		.container-lg
+			.col-12.col-sm-4
+				padding: 3px
 
 	//section timemenedg
-	.container-fuild:nth-child(4)
+	.container-fuild:nth-child(6)
 		.container
 			max-width: 100%
 			margin-left: 0
@@ -55,7 +57,7 @@
 
 
 	//section features
-	.container-fuild:nth-child(5)
+	.container-fuild:nth-child(7)
 		.container
 			max-width: 100%
 			margin-left: 0
@@ -69,80 +71,61 @@
 					.card-deck
 						margin-left: 0
 						margin-right: 0
-
-
-	//section team
-	.container-fuild:nth-child(6)
-		.container
-			max-width: 100%
-			.row:nth-child(1)
-				.col-12.col-sm-4
-					padding: .5em 1.5em
-			.row:nth-child(2)
-				padding-left: .3em
-				padding-right: .3em
+			.row:nth-child(3)
+				margin-top: 20px
 
 	//section features
 	.container-fuild:nth-child(7) .row:nth-child(2)
 
 		.col-12.col-sm-12:nth-child(2)
 			.card-deck
-				margin: 20px 0
+				margin: 15px 0
 
 		.col-12.col-sm-12:last-child
 			.card-deck
-				margin: auto 0
+				margin: 15px 0
 
 		.col-12.col-sm-12:first-child
 			.card-deck
-				margin: auto 0
+				margin: 15px 0
 
 	.container-fuild:nth-child(7) .row:nth-child(3)
 
 		.col-12.col-sm-12:nth-child(2)
 			.card-deck
-				margin: 20px 0
+				margin: 15px 0
 
 		.col-12.col-sm-12:last-child
 			.card-deck
-				margin: auto 0
+				margin: 15px 0
 
 		.col-12.col-sm-12:first-child
 			.card-deck
 				margin: auto 0
 
-	//secstion creative
+	//section team
 	.container-fuild:nth-child(8)
 		.container
 			max-width: 100%
-		.row .right_column .fotograf
-			height: 280px
+			.row:nth-child(1)
+				.col-12.col-sm-4
+					padding: .5em 1.5em
+			.row:nth-child(2)
+				padding-left: .5em
+				padding-right: .5em
 
-	//section contact
-	.container-fuild:nth-child(9)
+		//section creative
+	.container-fuild:nth-child(11)
 		.container
 			max-width: 100%
-			padding-left: 0
-			padding-right: 0
-			margin-left: 0
-			margin-right: 0
-			.row
-				max-width: 100%
-				.address_office, .number_phono, .email
-					min-height: 150px
-					padding-left: 0
-					padding-right: 0
-	//section creative
-	.container-fuild:nth-child(10)
-		.container
 			.right_column .ilustaration
 				display: flex
 				flex-direction: column
 				min-height: 50%
 				max-height: 50%
 				.row:nth-child(1)
-					min-height: 133.5px
-					max-height: 133.5px
+					min-height: 128px
+					max-height: 128px
 
 					div:nth-child(1)
 						min-height: 50%
@@ -159,13 +142,31 @@
 						background-size: cover
 						background-position: 50%  50%
 				.row:nth-child(2)
-					min-height: 133.5px
-					max-height: 133.5px
-	//section footer
-	.container-fuild:nth-child(10)
+					min-height: 128px
+					max-height: 128px
+
+	//section contact
+	.container-fuild:nth-child(12)
 		.container
+			max-width: 100%
+			padding-left: 0
+			padding-right: 0
+			margin-left: 0
+			margin-right: 0
 			.row
+				max-width: 100%
 				.address_office, .number_phono, .email
-					min-height: 90px
+					min-height: 150px
 					padding-left: 0
 					padding-right: 0
+
+
+	//section locationcontact
+	.container-fuild:nth-child(13)
+		.location_wrap
+			width: 40vw
+			padding-top: 1.3em
+		.location_wrap_addres, .location_wrap_socnet
+			text-align: left
+			padding-top: 2em
+			padding-bottom: 1em

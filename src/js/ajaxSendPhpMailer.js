@@ -9,7 +9,6 @@ $(document).ready(function() {
 			url: "../php/phpmailer.php", //Change
 			data: th.serialize()
 		}).done(function() {
-			alert("Thank you!");
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");

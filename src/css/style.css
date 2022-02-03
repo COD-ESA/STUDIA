@@ -17899,21 +17899,21 @@ body .dropdown-item span {
   margin-bottom: 3%;
 }
 
-.container-fuild:nth-child(5) .container h5, .container-fuild:nth-child(5) .container h6 {
+.container-fuild:nth-child(5) .container-lg h5, .container-fuild:nth-child(5) .container-lg h6 {
   color: black;
 }
-.container-fuild:nth-child(5) .container h6 {
+.container-fuild:nth-child(5) .container-lg h6 {
   font-family: jura;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-.container-fuild:nth-child(5) .container h5 {
+.container-fuild:nth-child(5) .container-lg h5 {
   font-family: Inter;
 }
-.container-fuild:nth-child(5) .container .row {
+.container-fuild:nth-child(5) .container-lg .row {
   margin: auto 0 !important;
 }
-.container-fuild:nth-child(5) .container .card {
+.container-fuild:nth-child(5) .container-lg .card {
   background: #ec09b0;
   height: 85%;
   color: black;
@@ -17923,17 +17923,17 @@ body .dropdown-item span {
   padding-top: 0.4em;
   padding-bottom: 2.2em;
 }
-.container-fuild:nth-child(5) .container .card h5 {
+.container-fuild:nth-child(5) .container-lg .card h5 {
   font-family: jura;
   margin-top: 1.5em;
 }
-.container-fuild:nth-child(5) .container .card p {
+.container-fuild:nth-child(5) .container-lg .card p {
   font-size: 95%;
 }
-.container-fuild:nth-child(5) .container .card svg {
+.container-fuild:nth-child(5) .container-lg .card svg {
   fill: white;
 }
-.container-fuild:nth-child(5) .container .col-12.col-sm-4:nth-child(1) .card .card-body {
+.container-fuild:nth-child(5) .container-lg .col-12.col-sm-4:nth-child(1) .card .card-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17951,7 +17951,7 @@ body .dropdown-item span {
   background: #f70838;
   padding: 0 0;
 }
-.container-fuild:nth-child(5) .container .col-12.col-sm-4:nth-child(2) .card .card-body {
+.container-fuild:nth-child(5) .container-lg .col-12.col-sm-4:nth-child(2) .card .card-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17969,7 +17969,7 @@ body .dropdown-item span {
   background: #081cf7;
   padding: 0 0;
 }
-.container-fuild:nth-child(5) .container .col-12.col-sm-4:nth-child(3) .card .card-body {
+.container-fuild:nth-child(5) .container-lg .col-12.col-sm-4:nth-child(3) .card .card-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18707,27 +18707,6 @@ body .dropdown-item span {
     padding-right: 0;
   }
 }
-@media only screen and (min-height: 576px) {
-  .container-fuild:nth-child(7) .row:nth-child(2) .col-12.col-sm-12:nth-child(2) .card-deck {
-    margin: auto 0;
-  }
-  .container-fuild:nth-child(7) .row:nth-child(2) .col-12.col-sm-12:last-child .card-deck {
-    margin: auto 0;
-  }
-  .container-fuild:nth-child(7) .row:nth-child(2) .col-12.col-sm-12:first-child .card-deck {
-    margin: auto 0;
-  }
-
-  .container-fuild:nth-child(7) .row:nth-child(3) .col-12.col-sm-12:nth-child(2) .card-deck {
-    margin: auto 0;
-  }
-  .container-fuild:nth-child(7) .row:nth-child(3) .col-12.col-sm-12:last-child .card-deck {
-    margin: auto 0;
-  }
-  .container-fuild:nth-child(7) .row:nth-child(3) .col-12.col-sm-12:first-child .card-deck {
-    margin: auto 0;
-  }
-}
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   .container-fuild:nth-child(2) {
     width: 100%;
@@ -18757,10 +18736,10 @@ body .dropdown-item span {
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) and (min-height: 481px) and (max-height: 600px) {
-  .container-fuild:nth-child(2) {
+  .container-fuild:nth-child(4) {
     height: 230vh;
   }
-  .container-fuild:nth-child(2) .container .home_foto, .container-fuild:nth-child(2) .container .home_studio {
+  .container-fuild:nth-child(4) .container .home_foto, .container-fuild:nth-child(4) .container .home_studio {
     min-height: 115vh;
   }
 
@@ -18775,67 +18754,58 @@ body .dropdown-item span {
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-  .container-fuild:nth-child(3) .display-5 {
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 767px) {
-  .container-fuild:nth-child(4) .container {
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .container-fuild:nth-child(4) .container .timemenedg_notebook {
-    padding-right: 1em;
-    padding-left: 0em;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 767px) {
-  .container-fuild:nth-child(5) .container {
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .container-fuild:nth-child(5) .container .row:nth-child(2) {
-    margin-bottom: 0;
-  }
-  .container-fuild:nth-child(5) .container .row:nth-child(3) {
-    margin-top: 0;
-  }
-  .container-fuild:nth-child(5) .container .row:nth-child(2) .col-12.col-sm-4 .card-deck, .container-fuild:nth-child(5) .container .row:nth-child(3) .col-12.col-sm-4 .card-deck {
-    margin-left: 0;
-    margin-right: 0;
+  .container-fuild:nth-child(5) .container-lg .col-12.col-sm-4 {
+    padding: 3px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   .container-fuild:nth-child(6) .container {
     max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
-  .container-fuild:nth-child(6) .container .row:nth-child(1) .col-12.col-sm-4 {
-    padding: 0.5em 1.5em;
+  .container-fuild:nth-child(6) .container .timemenedg_notebook {
+    padding-right: 1em;
+    padding-left: 0em;
   }
-  .container-fuild:nth-child(6) .container .row:nth-child(2) {
-    padding-left: 0.3em;
-    padding-right: 0.3em;
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .container-fuild:nth-child(7) .container {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-fuild:nth-child(7) .container .row:nth-child(2) {
+    margin-bottom: 0;
+  }
+  .container-fuild:nth-child(7) .container .row:nth-child(3) {
+    margin-top: 0;
+  }
+  .container-fuild:nth-child(7) .container .row:nth-child(2) .col-12.col-sm-4 .card-deck, .container-fuild:nth-child(7) .container .row:nth-child(3) .col-12.col-sm-4 .card-deck {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-fuild:nth-child(7) .container .row:nth-child(3) {
+    margin-top: 20px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   .container-fuild:nth-child(7) .row:nth-child(2) .col-12.col-sm-12:nth-child(2) .card-deck {
-    margin: 20px 0;
+    margin: 15px 0;
   }
   .container-fuild:nth-child(7) .row:nth-child(2) .col-12.col-sm-12:last-child .card-deck {
-    margin: auto 0;
+    margin: 15px 0;
   }
   .container-fuild:nth-child(7) .row:nth-child(2) .col-12.col-sm-12:first-child .card-deck {
-    margin: auto 0;
+    margin: 15px 0;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   .container-fuild:nth-child(7) .row:nth-child(3) .col-12.col-sm-12:nth-child(2) .card-deck {
-    margin: 20px 0;
+    margin: 15px 0;
   }
   .container-fuild:nth-child(7) .row:nth-child(3) .col-12.col-sm-12:last-child .card-deck {
-    margin: auto 0;
+    margin: 15px 0;
   }
   .container-fuild:nth-child(7) .row:nth-child(3) .col-12.col-sm-12:first-child .card-deck {
     margin: auto 0;
@@ -18845,29 +18815,19 @@ body .dropdown-item span {
   .container-fuild:nth-child(8) .container {
     max-width: 100%;
   }
-  .container-fuild:nth-child(8) .row .right_column .fotograf {
-    height: 280px;
+  .container-fuild:nth-child(8) .container .row:nth-child(1) .col-12.col-sm-4 {
+    padding: 0.5em 1.5em;
+  }
+  .container-fuild:nth-child(8) .container .row:nth-child(2) {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-  .container-fuild:nth-child(9) .container {
-    max-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .container-fuild:nth-child(9) .container .row {
+  .container-fuild:nth-child(11) .container {
     max-width: 100%;
   }
-  .container-fuild:nth-child(9) .container .row .address_office, .container-fuild:nth-child(9) .container .row .number_phono, .container-fuild:nth-child(9) .container .row .email {
-    min-height: 150px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 767px) {
-  .container-fuild:nth-child(10) .container .right_column .ilustaration {
+  .container-fuild:nth-child(11) .container .right_column .ilustaration {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -18878,11 +18838,11 @@ body .dropdown-item span {
     min-height: 50%;
     max-height: 50%;
   }
-  .container-fuild:nth-child(10) .container .right_column .ilustaration .row:nth-child(1) {
-    min-height: 133.5px;
-    max-height: 133.5px;
+  .container-fuild:nth-child(11) .container .right_column .ilustaration .row:nth-child(1) {
+    min-height: 128px;
+    max-height: 128px;
   }
-  .container-fuild:nth-child(10) .container .right_column .ilustaration .row:nth-child(1) div:nth-child(1) {
+  .container-fuild:nth-child(11) .container .right_column .ilustaration .row:nth-child(1) div:nth-child(1) {
     min-height: 50%;
     max-height: 100%;
     background-image: url(../img/fotocreative2.jpg);
@@ -18890,7 +18850,7 @@ body .dropdown-item span {
     background-size: cover;
     background-position: 50% 50%;
   }
-  .container-fuild:nth-child(10) .container .right_column .ilustaration .row:nth-child(1) div:nth-child(2) {
+  .container-fuild:nth-child(11) .container .right_column .ilustaration .row:nth-child(1) div:nth-child(2) {
     min-height: 50%;
     max-height: 100%;
     background-image: url(../img/fotocreative3.jpg);
@@ -18898,16 +18858,37 @@ body .dropdown-item span {
     background-size: cover;
     background-position: 50% 50%;
   }
-  .container-fuild:nth-child(10) .container .right_column .ilustaration .row:nth-child(2) {
-    min-height: 133.5px;
-    max-height: 133.5px;
+  .container-fuild:nth-child(11) .container .right_column .ilustaration .row:nth-child(2) {
+    min-height: 128px;
+    max-height: 128px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-  .container-fuild:nth-child(10) .container .row .address_office, .container-fuild:nth-child(10) .container .row .number_phono, .container-fuild:nth-child(10) .container .row .email {
-    min-height: 90px;
+  .container-fuild:nth-child(12) .container {
+    max-width: 100%;
     padding-left: 0;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-fuild:nth-child(12) .container .row {
+    max-width: 100%;
+  }
+  .container-fuild:nth-child(12) .container .row .address_office, .container-fuild:nth-child(12) .container .row .number_phono, .container-fuild:nth-child(12) .container .row .email {
+    min-height: 150px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .container-fuild:nth-child(13) .location_wrap {
+    width: 40vw;
+    padding-top: 1.3em;
+  }
+  .container-fuild:nth-child(13) .location_wrap_addres, .container-fuild:nth-child(13) .location_wrap_socnet {
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 1em;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -19078,7 +19059,7 @@ body .dropdown-item span {
   background: -o-linear-gradient(top right, #db08f7, #081cf7);
   background: linear-gradient(to bottom left, #db08f7, #081cf7);
 }
-.container-fuild:nth-child(9) .container {
+.container-fuild:nth-child(9) .container-lg {
   min-height: 53vh;
   padding-top: 3.5em;
   padding-bottom: 3.5em;
@@ -19091,6 +19072,7 @@ body .dropdown-item span {
   font-family: Roboto, sans-serif, Arial;
   font-weight: 700;
   color: black;
+  margin-bottom: 40px;
 }
 .container-fuild:nth-child(9) .col-12 {
   padding: 0;
@@ -19117,19 +19099,19 @@ body .dropdown-item span {
   width: 100%;
 }
 .container-fuild:nth-child(9) .carusel-line-item:nth-child(1) {
-  background-image: url("../img/myproject/restoran.jpeg");
+  background-image: url("../img/restoran.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 .container-fuild:nth-child(9) .carusel-line-item:nth-child(2) {
-  background-image: url("../img/myproject/companyhome.png");
+  background-image: url("../img/companyhome.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 .container-fuild:nth-child(9) .carusel-line-item:nth-child(3) {
-  background-image: url("../img/myproject/cars.jpeg");
+  background-image: url("../img/cars.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
